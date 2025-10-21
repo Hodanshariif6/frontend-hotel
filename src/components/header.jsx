@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 
-function Header() {
+function header() {
   const [user, setUser] = useState(null);
   const [userImage, setUserImage] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -310,4 +310,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default header;
