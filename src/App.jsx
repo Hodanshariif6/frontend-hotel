@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom"
-import header from "./components/header"
 import Contact from "./pages/contact"
 import About from "./pages/About"
 import Home from "./pages/Home"
@@ -21,11 +20,12 @@ import ForgotPassword from "./pages/ForgotPassword"
 import ProtectedRouter from "./pages/ProtectedRouter"
 import LoginAdmin from "./pages/LoginAdmin"
 import RegisterAdmin from "./pages/Registeradmin"
+import Header from "./components/header"
 
 function MainLayout({ children }) {
   return (
     <div>
-      <header />
+      <Header />
       {children}
     </div>
   )
